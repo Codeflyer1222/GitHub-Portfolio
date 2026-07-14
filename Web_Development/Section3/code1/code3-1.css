@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Coding Challenge 1
+
+   Author: Samuel Brown
+   Date:   09/25/2024
+   
+   Filename: code3-1.css
+
+*/
+
+body {
+   width: 900px;
+   margin: 20px auto;
+   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+   font-size: 1.25em;
+   padding-bottom: 30px;
+}
+
+h1 {
+   font-size: 2.2em;
+   text-align: center;
+}
+
+p:first-of-type::first-letter {
+   font-size: 4em;
+   float: left;
+   line-height: 0.8em;
+   margin-right: 0.1em;
+   padding-right: 0.1em;
+   padding-bottom: 0.2em;
+}
+
+p:first-of-type::first-line {
+   font-variant: small-caps;
+   font-size: 1.4em;
+}

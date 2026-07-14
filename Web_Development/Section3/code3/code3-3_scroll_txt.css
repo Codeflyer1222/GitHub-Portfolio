@@ -1,0 +1,26 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Coding Challenge 3
+
+   Author: Samuel Brown
+   Date:   09/26/2024
+   
+   Filename: code3-3_scroll.css
+
+*/
+
+section#container {
+   width: 900px;
+   height: 370px;
+   margin: 10px auto 10px auto;
+   position: relative;
+   top: 30px;
+   left: 0px;
+   outline: brown 2px;
+   outline-style: solid;
+   overflow: auto;
+
+}

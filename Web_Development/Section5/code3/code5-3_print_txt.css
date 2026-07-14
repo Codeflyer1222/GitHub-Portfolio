@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 5
+   Coding Challenge 3
+
+   Author:   Samuel Brown
+   Date:     11/7/2024
+   Filename: code5-3_print.css
+
+*/
+@page :first{
+   size: 8.5in 11in;
+   margin: 1in;
+}
+
+nav {
+   text-decoration: none;
+   page-break-inside: avoid;
+}
+
+li {
+   line-height: 0.3in;
+}
+
+a::after {
+   content: " ( "attr(href) ") ";
+   /*booking [ http://www.booking.com ];*/
+   display: inline-block;
+   margin-left: 20px;
+   word-wrap: break-word;
+}

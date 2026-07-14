@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Coding Challenge 1
+
+   Author: Samuel Brown
+   Date:   09/25/2024
+   
+   Filename: code3-1_float.css
+
+*/
+
+img {
+   height: 3.3em;
+   clear: right;
+   float: right;
+}

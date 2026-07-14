@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Author:   Samuel Brown 
+   Date:     10/10/2024
+   Filename: code6-1_table.css
+
+*/
+
+table {
+   border: 20px groove gray;
+   border-collapse: collapse;
+}
+
+th, td {
+   border: 1px solid gray;
+   padding: 5px;
+   text-align: left;
+   vertical-align: top;
+}
+
+caption {
+   text-align: left;
+   caption-side: top;
+   font-size: 1.5em;
+}
+
+col#firstCol {
+   background-color: yellow;
+   width: 150px;
+}
+
+col#hourCols {
+   column-width: 75px;
+}
+
+thead {
+   background-color: aqua;
+}
