@@ -1,0 +1,6 @@
+cust_id,first_name,last_name,company_name,address,city,state,zip
+101,Winnie,Pooh,Pooh Corner,100 Aker Wood,Hundred Acre Wood,UK,12345
+102,Tigger,TiggerToo,,100 Acre Wood North,East Sussex,UK,56789
+103,Owl,NoLastName,The Chestnuts,100 Acre Wood East,Ashdown Forest,UK,13579
+104,The,Lorax,,Truffula Tree,Thneedville,CA,92037
+105,Eathan,Grinch,Mount Crumpit,1957 Mt. Crumpit Dr,Boulder,UT,84716
